@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger position-fixed">
         <div class="container">
             <a class="navbar-brand logo" href="#">[D]</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,24 +30,31 @@
                         <a class="nav-link text-white" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">link1</a>
+                        <a class="nav-link text-white d-none d-md-block" href="#acerca-mi">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">link2</a>
+                        <a class="nav-link text-white" href="#conocimientos">Conocimientos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">link3</a>
+                        <a class="nav-link text-white" href="#ultimos-trabajos">Últimos Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#redes-sociales">RRSS</a>
                     </li>
                 </ul>      
             </div>
         </div>
     </nav>
+    <div class="clear-fix" style="height: 74px;"></div>
     <!-- header, imagen y titulo-->
-    <header class="text-white text-center">
+    <header id="hero-section" class="text-white text-center">
         <h1>DAAPX <span class="d-block">Backend / Fullstack Developer</span></h1>
     </header>
     <!-- acerca de mi -->
-    <section class="container d-none d-md-block">
+    <section id="acerca-mi" class="container d-none d-md-block">
         <h2 class="text-center mb-5">Acerca de mi</h2>
         <div class="row mt-3">
             <div class="col-6">
@@ -185,7 +192,7 @@
         <h2 class="text-center">Formulario de contacto</h2>
         <div class="typeform-widget" data-url="https://daapx.typeform.com/to/hp9mQz" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=hp9mQz&utm_source=typeform.com-13875444-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
     </section>
-    <footer class="bg-danger text-center text-white">
+    <footer id="redes-sociales" class="bg-danger text-center text-white">
         <h2>DAAPX</h2>
         <div class="redes-sociales pb-3">
             <a href="https://github.com/daapx" target="_blank"><i class="fab fa-github-square fa-3x" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a>
