@@ -1,3 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 2em;
+}
+
 header{
     background-image: url('../img/bg-hero-2.png');
     background-repeat: no-repeat;
@@ -5,7 +15,64 @@ header{
     background-position: left;
     padding-top: 6rem; 
 }
+/* acerca de mi*/
+h3{
+    text-decoration: underline;
+}
 
+a.empresas, a.empresas:hover, a.empresas:visited {
+    color: #212529;
+}
+
+a.destacado, a.destacado:hover, a.destacado:visited{
+    color: #dc3545;
+}
+
+/*conocimientos*/
+h1, h2{
+    font-weight: 700;
+}
+
+h2{
+    margin: 1.5rem 0;
+}
+/*ultimos trabajos*/
+#ultimos-trabajos h2{
+    padding-top: 1.5rem;
+}
+
+div.card {
+    margin-top: 0.8rem;
+}
+
+#ultimos-trabajos .row{
+    padding-bottom: 1.5rem;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 1em;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 0.85em;
+}
+/* footer */
 footer{
     padding: 2rem 0;
+}
+
+footer a, footer a:hover{
+    color: #ffffff;
+}
+footer a{
+    margin: 0 0.5rem;
+}
+
+
+@media (min-width: 768px){
+    header{
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
 }

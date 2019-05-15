@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portafolio</title>
+    <title>Portafolio - DAAPX</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700" rel="stylesheet">
+    <!-- mi css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-danger">
         <div class="container">
-            <a class="navbar-brand logo" href="#">&lt;D&gt; </a>
+            <a class="navbar-brand logo" href="#">[D]</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>      
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link text-white" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">link1</a>
+                        <a class="nav-link text-white" href="#">link1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">link2</a>
+                        <a class="nav-link text-white" href="#">link2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">link3</a>
+                        <a class="nav-link text-white" href="#">link3</a>
                     </li>
                 </ul>      
             </div>
@@ -40,27 +46,52 @@
     <header class="text-white text-center">
         <h1>DAAPX <span class="d-block">Backend / Fullstack Developer</span></h1>
     </header>
+    <!-- acerca de mi -->
+    <section class="container d-none d-md-block">
+        <h2 class="text-center mb-5">Acerca de mi</h2>
+        <div class="row mt-3">
+            <div class="col-6">
+                <h3 class="text-center font-italic font-weight-bolder">Formación</h3>
+                <p class="text-justify">
+                    Ligado al mundo de los computadores desde mi juventud, me forme profesionalmente en la <a href="https://www.usm.cl" target="_blank" class="destacado">UTFSM</a>
+                    obteniendo el título de ingeniero de ejecución en informática en 2014 en la ciudad de Valparaíso (Chile), actualmente me encuentro
+                    cursando la carrera de Diseño UI/UX en la académia <a href="https://desafiolatam.com/" target="_blank" class="destacado">DesafioLatam</a>, en la primera generación
+                    de la sede Rebeca Matte.
+                </p>
+            </div>
+            <div class="col-6">
+                <h3 class="text-center font-italic font-weight-bolder">Experiencia</h3>
+                <p class="text-justify">
+                    Desarrollo sistemas web desde 2009 y tengo cerca de 10 años de experiencia en tecnologías web en diferentes plataformas, la mayor
+                    parte de mi experiencia es utilizando el stack <a href="https://es.wikipedia.org/wiki/LAMP" target="_blank" class="destacado">LAMP</a>. He trabajado cono freelancer
+                    asi como para diferentes instituciones participando en grupos interdiciplinarios. A mi parecer las principales empresas donde trabajé son
+                    <a href="https://www.fundacionlasrosas.cl" target="_blank" class="empresas">Fundacion las rosas</a>, <a href="http://redd.cl" target="_blank" class="empresas">Tastest System</a> 
+                    y <a href="https://vrweb.cl" target="_blank" class="empresas">VRWEB</a>.
+                </p>
+            </div>
+        </div>
+    </section>
     <!-- experiencia/conocimientos -->
     <section id="conocimientos" class="container text-center">
         <h2 class="text-center">Conocimientos</h2>
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
                 <i class="fas fa-database fa-7x"></i>
                 <p>MySQL, PostgreSQL</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
                 <i class="fab fa-php fa-7x"></i>
                 <p>PHP5 y PHP7</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
                 <i class="fab fa-html5 fa-7x"></i>
                 <p>HTML</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
                 <i class="fab fa-js-square fa-7x"></i>
                 <p>JavaScript</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
                 <i class="fab fa-android fa-7x"></i>
                 <p>Android</p>
             </div>
@@ -68,14 +99,18 @@
     </section>
     <section id="ultimos-trabajos" class="bg-danger">
         <div class="container">
-            <h2>Últimos Trabajos</h2>
+            <h2 class="text-white text-center">Últimos Trabajos</h2>
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="card">
                         <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet & Coffee">
                         <div class="card-body">
                             <h5 class="card-title">Meet & Coffee</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                ¿Te interesa saber sobre tecnología? ¿Te gusta un buen café? Entonces tienes que venir
+                                a Meet & Coffe, acá podrás disfrutar de las mejores charlas y simposion sobre tecnología
+                                disfrutando del mejor café.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +119,11 @@
                         <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
                         <div class="card-body">
                             <h5 class="card-title">Iguana Page</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                Si te gustan las iguanas no puedes dejar de visitar Iguana Page.
+                                Un sitio completo dedicado a este reptil. Caraterísticas, información e imagenes de iguanas
+                                de todo el mundo. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +132,10 @@
                         <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
                         <div class="card-body">
                             <h5 class="card-title">Cuppon</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                Ahorrar nunca fue tan facil, enterate de todas las ofertas a solo 1 click. Comida,
+                                viajes, vestuario, lo que quieres esta en Cuppon.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +144,10 @@
                         <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
                         <div class="card-body">
                             <h5 class="card-title">Suricata</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                Rico y económico, asi es Suricata. No dejes de visitar la mejor picada de comidas de
+                                Santiago.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -111,7 +156,11 @@
                         <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
                         <div class="card-body">
                             <h5 class="card-title">Ricomida</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                Recetas que te dejaran como un chef de primera frente a tus invitados, recetas simples
+                                que consiguen crear sabores sofisticados. Entradas, platos principales, postres y muchas
+                                recetas más.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -120,7 +169,11 @@
                         <img src="assets/img/dmark.png" class="card-img-top" alt="DMARK">
                         <div class="card-body">
                             <h5 class="card-title">DMARK</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                Se único y diferenciate de tu competencia, una buena marca y la estrategia adecuada pueden
+                                llevarte a ser el <strong>número 1</strong>, para llevar a cabo esta tarea existe DMARK la mejor
+                                agencia publicitaria que puede existir.  
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -129,27 +182,22 @@
     </section>
     <section id="contacto">
         <!-- aca ira un formulario de typeform-->
-        <h2>Contacto</h2>
-        <form>
-            <div class="form-group">
-                <label for="textarea" class="control-label">¿Cual es tu pregunta?</label>
-                <textarea class="form-control" name="textarea" rows="5"></textarea>
-            </div>
-        </form>
-
+        <h2 class="text-center">Formulario de contacto</h2>
+        <div class="typeform-widget" data-url="https://daapx.typeform.com/to/hp9mQz" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=hp9mQz&utm_source=typeform.com-13875444-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
     </section>
     <footer class="bg-danger text-center text-white">
         <h2>DAAPX</h2>
-        <div class="redes-sociales">
-            <i class="fab fa-github-square fa-3x"></i>
-            <i class="fab fa-linkedin fa-3x"></i>
-            <i class="fab fa-twitter-square fa-3x"></i>
-            <i class="fab fa-facebook-square fa-3x"></i>
+        <div class="redes-sociales pb-3">
+            <a href="https://github.com/daapx" target="_blank"><i class="fab fa-github-square fa-3x" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a>
+            <a href="https://www.linkedin.com/in/david-arancibia-835a0349/" target="_blank"><i class="fab fa-linkedin fa-3x" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"></i></a>
+            <a href="https://twitter.com/daapx" target="_blank"><i class="fab fa-twitter-square fa-3x" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
+            <a href="https://www.facebook.com/david.arancibia.545" target="_blank"><i class="fab fa-facebook-square fa-3x" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- mi js -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
